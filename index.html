@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Starbucks</title>
+</head>
+<body>
+    <div class="circl"></div>
+
+    <div class="contanier">
+
+        <div class="header">
+            <img class="logo" src="./images/logo.png" alt="">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">New's</a></li>
+                <li><a href="#">Conact</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div class="text">
+                <h2>It's not just Coffe<br>It's <span class="stt">Starbucks</span></h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                     Odio excepturi reiciendis ea tempora placeat laboriosam,
+                      dignissimos ipsa ad consequuntur debitis.</p>
+
+                <a href="#">learn more</a>      
+            </div>
+
+            <div class="images">
+                <img src="./images/img1.png" class="stbauks">
+            </div>
+
+        </div>
+
+
+        <ul class="thumb">
+            <li><img src="./images/thumb1.png" onclick="imgSlider('./images/img1.png'); changeColorCircl('#017143'); /*changeColorText('#017143')*/ "></li>
+            <li><img src="./images/thumb2.png" onclick="imgSlider('./images/img2.png'); changeColorCircl('#eb7495'); /*changeColorText('#eb7495')*/ "></li>
+            <li><img src="./images/thumb3.png" onclick="imgSlider('./images/img3.png'); changeColorCircl('#d752b1'); /*changeColorText('#d752b1')*/ "></li>
+
+        </ul>
+
+        <ul class="social">
+            <li><a href="https://facebook.com" target="_blank"><img src="./images/facebook.png"></a></li>
+            <li><a href="https://instagram.com" target="_blank"><img src="./images/instagram.png"></a></li>
+            <li><a href="https://twitter.com" target="_blank"><img src="./images/twitter.png"></a></li>
+
+
+        </ul>
+
+    </div>
+
+    <script src="main.js"></script>
+   
+</body>
+</html>
